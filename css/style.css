@@ -693,14 +693,15 @@ body._lock {
 }
 
 .no-webp .main{
-  background: url("../img/bgc.jpg") no-repeat; }
+  background: url("../img/bgc.jpg"); }
 
 .main {
-  /*-webkit-box-flex: 1;
+  -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
-          flex: 1 1 auto;*/
+          flex: 1 1 auto;
   background-size: cover;
   background-position: center top;
+  background-repeat: repeat;
 }
 
 body.lock {
@@ -1253,4 +1254,4 @@ body.lock {
   }
 }
 
-.webp .main{ background: url(../img/bgc.webp) no-repeat; }
+.webp .main{ background: url(../img/bgc.webp); }
