@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220311192622">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220311192622" />
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220311192622"></script>
+   <title>Главная</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+   <div class="header__container _container">
+
+      <div class="header__logo-head">
+         <a href="" class="header__logo">
+            <img src="img/winx-131.svg" alt="Winx Logo">
+         </a>
+      </div>
+
+      <div class="header__icon menu-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+
+      <nav class="header__menu menu">
+         <ul class="menu__list">
+            <li><a href="" class="menu__link _active">Главная</a></li>
+            <li>
+               <div data-spollers class="seasons-menu">
+                  <div class="seasons-menu__item">
+                     <a href="" class="menu__link ">Сезоны</a>
+                     <img class="seasons-menu__arrow" data-spoller src="img/icons/arrow.svg" alt="">
+                     <ul class="seasons-menu__list">
+                        <li><a href="" class="seasons-menu__link">Смотреть Winx на русском</a></li>
+                        <li><a href="" class="seasons-menu__link">Смотреть Winx в оригинале</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+            <li><a href="" class="menu__link ">О персонажах</a></li>
+            <li><a href="" class="menu__link ">Игра Winx Club</a></li>
+         </ul>
+      </nav>
+   </div>
+</header>
+      <main class="main">
+         <section class="navigation">
+            <div class="navigation__container _container">
+               <div class="navigation__content">
+                  <div class="navigation__title">
+                     <h1 class="title">
+                        Добро пожаловать в Winx Club!
+                     </h1>
+                  </div>
+                  <div class="navigation__subtitle">
+                     <p class="navigation__text text">Здесь вы найдете множество интересной информации о мультисериале
+                        "Winx", сможете посмотреть
+                        серии на русском и английском языках, узнать получше любимых персонажей и погрузиться в секреты
+                        и лайвхаки игры "Winx Club" на ПК</p>
+                  </div>
+               </div>
+               <div class="navigation__swiper swiper swiper-container">
+                  <div class="swiper__wrapper swiper-wrapper">
+                     <div id='slide-1' class="swiper__slide swiper-slide">
+                        <a class='slide-link' href="">
+                           <div class="swiper__image _ibg">
+                              <picture><source srcset="img/seasons.webp" type="image/webp"><img src="img/seasons.jpg" alt=""></picture>
+                           </div>
+                        </a>
+                     </div>
+                     <div id='slide-2' class="swiper__slide swiper-slide">
+                        <a class='slide-link' href="">
+                           <div class="swiper__image _ibg">
+                              <picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture>
+                           </div>
+                        </a>
+                     </div>
+                     <div id='slide-3' class="swiper__slide swiper-slide">
+                        <a class='slide-link' href="">
+                           <div class="swiper__image _ibg">
+                              <picture><source srcset="img/game.webp" type="image/webp"><img src="img/game.jpg" alt=""></picture>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-scrollbar"></div>
+               </div>
+            </div>
+         </section>
+         <!-- <div class="background__image _ibg">
+            <picture><source srcset="img/bgc.webp" type="image/webp"><img src="img/bgc.jpg" alt="background"></picture>
+         </div> -->
+      </main>
+      <footer class="footer">
+   <div class="footer__container _container">
+   </div>
+</footer>
+   </div>
+   <script src="js/app.min.js?_v=20220311192622"></script>
+</body>
+
+</html>
