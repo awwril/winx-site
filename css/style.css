@@ -128,7 +128,7 @@ button,
 textarea {
   font-family: "Playfair Display";
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #000;
 }
 
@@ -198,8 +198,7 @@ body._lock {
 
 .text {
   color: #000;
-  font-size: 1.375rem;
-  line-height: 1.3636363636em;
+  line-height: 1.6666666667em;
 }
 
 .subtitle {
@@ -232,7 +231,7 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 6.25rem;
+  min-height: 5rem;
 }
 
 .header__logo-head {
@@ -261,7 +260,6 @@ body._lock {
 
 .menu__link {
   color: #000;
-  font-size: 1.125rem;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -315,6 +313,7 @@ body._lock {
   text-align: center;
   background-color: rgba(246, 246, 221, 0.8);
   border-radius: 0.625rem;
+  padding: 0 0.625rem;
 }
 
 .swiper .swiper-pagination-bullet {
@@ -381,14 +380,13 @@ body._lock {
 }
 
 .seasons-head__title {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.9375rem;
   text-align: center;
 }
 
 .seasons-head__subtitle {
   background-color: rgba(246, 246, 221, 0.8);
   text-align: center;
-  font-size: 1.25rem;
   border-radius: 0.625rem;
   line-height: 1.3636363636em;
   padding: 0.3125rem 1.25rem;
@@ -405,7 +403,7 @@ body._lock {
   padding-bottom: 1.25rem;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 30px;
+  font-size: 24px;
   color: #000;
   font-weight: 500;
   -webkit-transition: all 0.5s ease 0s;
@@ -1069,7 +1067,7 @@ body.lock {
   }
 
   .seasons-head__button {
-    font-size: calc(20px + 10 * ((100vw - 320px) / 620));
+    font-size: calc(20px + 4 * ((100vw - 320px) / 620));
   }
 
   .seasons {
